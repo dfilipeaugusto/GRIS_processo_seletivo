@@ -1,0 +1,53 @@
+TAG - Banco de Dados
+Nome: FILIPE AUGUSTO DA SILVA
+Entrega: 29/02/2020
+
+--
+
+Tbl pessoa
+
+Cada participante e professor devem ser considerados individualmente dentro de um sistema, assim, temos uma chave primária "id_person" para termos um número único, nome do indivíduo e data de nascimento do mesmo, lembrando que podemos ter raras alterações no nome, mas mantê-lo-ei como "imutável", ou seja, não precisa de uma tabela.
+
+--
+
+Tbl email
+
+Uma pessoa pode ter vários email, portanto, é necessário ter uma chave primária "id_email", atrelar à identidade da pessoa ("id_pessoa") e considerar o campo endereço de Email como "único" dentro do BD, a fim de evitar que duas pessoas possuam o mesmo email ou que este seja registrado duas vezes para o mesmo indivíduo.
+
+--
+
+Tbl telefone
+
+Uma pessoa pode ter vários números de telefone, portanto, é necessário ter uma chave primária "id_telefone", atrelar à identidade da pessoa ("id_pessoa") e considerar o campo endereço de número de telefone como "único" dentro do BD, a fim de evitar que duas pessoas possuam o mesmo número ou que este seja registrado duas vezes para o mesmo indivíduo.
+
+--
+
+Tbl DRE
+
+Uma pessoa pode ter vários números de DRE por possuir mais de um curso na UFRJ, portanto, é necessário ter uma chave primária "id_dre", atrelar à identidade da pessoa ("id_pessoa") e considerar o campo número de DRE como "único" dentro do BD, a fim de evitar que duas pessoas possuam o mesmo número ou que este seja registrado duas vezes para o mesmo indivíduo.
+
+--
+
+Tbl CPF
+
+Uma pessoa pode ter vários números de CPF (infelizmente, há vários casos assim por falta de planejamento), portanto, é necessário ter uma chave primária "id_cpf", atrelar à identidade da pessoa ("id_pessoa") e considerar o campo número de CPF como "único" dentro do BD, a fim de evitar que duas pessoas possuam o mesmo número ou que este seja registrado duas vezes para o mesmo indivíduo.
+
+--
+
+Tbl tarefa
+
+O processo seletivo é constituído de várias atividades para os participantes, portanto, é necessária cadastrá-las. Temos a chave primária "id_tarefa" para dar um número único a cada tarefa, "nome_tarefa" para ser uma espécie de título da mesma, "desc_tarefa" para maior descrição da atividade, "id_pessoa" para ser uma chave estrangeira que corresponde ao responsável (professor) da mesma e, por fim, "id_categoria" para identificar a categoria da tarefa (banco de dados, por exemplo) como chave estrangeiro.
+
+--
+
+Tbl categoria
+
+Esta tabela é particular, pois ela referencia ela mesma, ou seja, há formação de um grafo. Podemos criar categorias e subcategorias "à vontade". Para isso, temos a chave primária "id_categoria" para uma identificação exclusiva, "nome_categoria" para nomear a mesma, "desc_categoria" para melhor descrição da categoria e, por fim, "id_categoria" como chave estrangeira para formação da árvore.
+
+--
+
+Tbl tarefaStatus
+
+Como as tarefas precisam ser cumpridas pelos participantes, temos uma chave primária dupla, "id_pessoa" e "id_tarefa", além disso, temos a data/hora da tarefa realizada, "datetime_tarefa", "desc_tarefa" para maior descrição da atividade, e, por último, o campo de estado da categoria, "estado_categoria".
+
+--
