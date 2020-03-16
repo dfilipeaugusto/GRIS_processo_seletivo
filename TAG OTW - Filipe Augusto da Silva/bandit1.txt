@@ -1,0 +1,1 @@
+utilizando o comando "ls" acrescido do parâmetro "-la" para mostrar os arquivos ocultos, foi descoberto o arquivo chamado "-". Entretanto, utilizando a ajuda do comando "cat", há uma peculiaridade para arquivos que começam por "-", assim, antes do nome do mesmo, deve-se colocar "./".

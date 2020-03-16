@@ -1,0 +1,1 @@
+Ao avaliar o arquivo com o comando "cat data.txt", percebi que, simplesmente, ao passar o "mouse" em cima, pude ver a senha explicitamente.

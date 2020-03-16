@@ -1,0 +1,1 @@
+Utilizando o comando "ls" para listar os arquivos, vejo que há um chamado "spaces in this filename", assim, sabendo que no Sistema Operacional Linux podemos colocar uma barra invertida ("\") antes do espaço, por exemplo, para denotar que faz parte do próprio nome do arquivo. Assim, o comando de leitura do arquivo ficou "cat spaces\ in\ this\ filename", sem aspas.

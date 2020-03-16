@@ -1,0 +1,1 @@
+Como estamos avaliando o arquivo "data.txt" com o comando "cat", podemos utilizar, de forma conjunta, o comando "grep", procurando padrões dentro do arquivo mencionado. Assim sendo, basta adicionar "grep millionth" em frente do comando cat.

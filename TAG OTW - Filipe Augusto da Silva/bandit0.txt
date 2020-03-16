@@ -1,0 +1,1 @@
+O desafio introdutório consiste em ler o arquivo "readme" do diretório home (diretório padrão da conexão SSH) para o próximo nível, assim, utilizei o comando "ls" para listar os arquivos e, posteriormente, o comando "cat" seguido do nome do arquivo para lê-lo.

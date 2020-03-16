@@ -1,0 +1,4 @@
+Primeiramente, avaliamos o arquivo com o comando "cat data.txt".
+Em segundo lugar, utilizamos o comando "sort -r" para escrever a concatenação ordenada de todos os arquivos revertendo o resultado das comparações.
+Em terceiro lugar, utilizamos o comando "uniq -c" para escrever o resultado do filtro em que as linhas adjacentes são iguais, assim estas são contabilizadas, colocando o resultado no início de cada linha.
+Em quarto lugar, como queremos apenas a única linha que não se repete, utilizamos o comando 'grep "1 "' para encontrar este padrão no output gerado pelo comando anterior.

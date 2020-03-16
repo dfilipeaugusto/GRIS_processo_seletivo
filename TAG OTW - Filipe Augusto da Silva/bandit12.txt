@@ -1,0 +1,11 @@
+Primeiramente, segui as instruções do próprio enunciado para criar uma pasta temporária e a chamei de "gris", assim, copiei o arquivo "data.txt" para este novo diretório.
+Utilizei o comando "xxd -r" para converter o arquivo hexdump em binário.
+[1] Como o arquivo gerado é do tipo "gzip", mudei a extensão do arquivo para ".gz" e rodei o comando "gunzip".
+[2] Como o arquivo gerado é do tipo "bzip2", rodei o comando "bzip2 -d" seguido do nome.
+Volto ao passo [1] e prossigo.
+[3] Como o arquivo gerado é do tipo "tar", rodei o comando "tar xvf" seguido do nome.
+Volto ao passo [3] e prossigo.
+Volto ao passo [2] e prossigo.
+volto ao passo [3] e prossigo.
+Volto ao passo [1] e prossigo.
+Finalmente, o arquivo gerado é do tipo "ASCII text", assim, basta executar o comando "cat" seguido do nome do arquivo para obter o resultado.

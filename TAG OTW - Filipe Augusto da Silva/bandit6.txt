@@ -1,0 +1,7 @@
+Fiz a busca no diretório "/" com o comando "find". As restrições colocadas foram:
+"-type f" --> arquivos
+"-size 33c" --> tamanho do arquivo é 33 bytes 
+"-user bandit7" --> Propriedade do usuário bandit7
+"-group bandit6" --> Pertence ao grupo bandit6
+
+Assim, basta pegar o único resultado que não deu erro e executar o comando "cat" em cima deste arquivo.

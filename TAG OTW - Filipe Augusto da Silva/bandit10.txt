@@ -1,0 +1,1 @@
+Para codificar e decodificar o arquivo, basta o utilizar o comando "base64", seguido do parâmetro "-d" que significa, explicitamente, decodificar. Em seguida, o resultado será impresso na tela.

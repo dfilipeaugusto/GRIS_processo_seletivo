@@ -1,0 +1,1 @@
+Para adentrar o diretório "inhere", utilizei o comando "cd" seguido do nome do mesmo, assim, basta executar o comando "ls -la" para descobrir os arquivos ocultos do diretório. Descoberto, utilizei o comando "cat .hidden" para fazer a leitura do mesmo.

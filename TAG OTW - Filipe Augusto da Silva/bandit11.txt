@@ -1,0 +1,4 @@
+Para rotacionar as letras, basta lembrar qual é a 13ª letra do alfabeto e utilizar o comando "tr" para fazer as substituições.
+Para as letras minúsculas, o comando "tr '[a-z]' '[n-za-m]'".
+Para as letras maiúsculas, o comando "tr '[A-Z]' '[N-ZA-M]'".
+A partir disso, o resultado seria exibido na tela.
